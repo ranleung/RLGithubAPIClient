@@ -14,6 +14,7 @@
 		706696A71A5B811D00F0584D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706696A61A5B811D00F0584D /* Images.xcassets */; };
 		706696AA1A5B811D00F0584D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706696A81A5B811D00F0584D /* LaunchScreen.xib */; };
 		706696B61A5B811D00F0584D /* RLGithubAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706696B51A5B811D00F0584D /* RLGithubAPIClientTests.swift */; };
+		706696C01A5B812C00F0584D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706696BF1A5B812C00F0584D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		706696AF1A5B811D00F0584D /* RLGithubAPIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLGithubAPIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		706696B41A5B811D00F0584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		706696B51A5B811D00F0584D /* RLGithubAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLGithubAPIClientTests.swift; sourceTree = "<group>"; };
+		706696BF1A5B812C00F0584D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				7066969C1A5B811D00F0584D /* AppDelegate.swift */,
 				706696A11A5B811D00F0584D /* ViewController.swift */,
+				706696BF1A5B812C00F0584D /* Constants.swift */,
 				706696A31A5B811D00F0584D /* Main.storyboard */,
 				706696A61A5B811D00F0584D /* Images.xcassets */,
 				706696A81A5B811D00F0584D /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				706696A21A5B811D00F0584D /* ViewController.swift in Sources */,
 				706696A01A5B811D00F0584D /* RLGithubAPIClient.xcdatamodeld in Sources */,
 				7066969D1A5B811D00F0584D /* AppDelegate.swift in Sources */,
+				706696C01A5B812C00F0584D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
